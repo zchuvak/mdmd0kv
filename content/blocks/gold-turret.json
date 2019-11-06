@@ -1,0 +1,57 @@
+{
+	"type": "doubleTurret",
+	"name": "Golden Turret",
+	"description": "Not very krutaua turret",
+	"health": 400,
+	"size": 1,
+	"recoil" : 10,
+	"reload": 3,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 10,
+	"rotatespeed": 20,
+	"ammo": {
+		"gold": {
+			"speed": 8.0,
+			"damage": 50,
+			"reloadMultiplier": 0.5,
+			"bulletWidth": 5,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "ac7349",
+			"frontColor": "dcd16b"
+		},
+		"iron": {
+			"speed": 4.0,
+			"damage": 15,
+			"reloadMultiplier": 0.8,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "777778",
+			"frontColor": "4d4e50"
+		},
+		"obsidian": {
+			"speed": 10.0,
+			"damage": 75,
+			"reloadMultiplier": 0.5,
+			"bulletWidth": 10,
+			"bulletHeight": 18,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"backColor": "ac7349",
+			"frontColor": "dcd16b"
+		},
+	},
+	"requirements": [
+		{ "item": "gold", "amount": 40 },
+		{ "item": "iron", "amount": 70 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

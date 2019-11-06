@@ -1,0 +1,9 @@
+{
+"type": "material",
+"name": "Kvarz",
+"description": "This is a kvarz",
+"hardness": 3,
+"cost": 2.0,
+"color": "000000",
+"tier": 2
+}

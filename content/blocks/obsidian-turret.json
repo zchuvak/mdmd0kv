@@ -1,0 +1,57 @@
+{
+	"type": "doubleTurret",
+	"name": "Iron Turret",
+	"description": "-",
+	"health": 600,
+	"size": 3,
+	"recoil" : 6,
+	"reload": 4,
+	"range": 1000,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 9,
+	"ammo": {
+		"gold": {
+			"speed": 8.0,
+			"damage": 45,
+			"reloadMultiplier": 0.5,
+			"bulletWidth": 5,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "ac7349",
+			"frontColor": "dcd16b"
+		},
+		"iron": {
+			"speed": 6.0,
+			"damage": 15,
+			"reloadMultiplier": 0.8,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "777778",
+			"frontColor": "4d4e50"
+		},
+		"gold": {
+			"speed": 8.0,
+			"damage": 45,
+			"reloadMultiplier": 0.5,
+			"bulletWidth": 5,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "ac7349",
+			"frontColor": "dcd16b"
+		}
+	},
+	"requirements": [
+		{ "item": "obsidian", "amount": 40 },
+		{ "item": "gold", "amount": 70 }
+	],
+	"category": "turret",
+	"research": "duo"
+}
