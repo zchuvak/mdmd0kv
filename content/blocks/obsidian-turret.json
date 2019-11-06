@@ -1,6 +1,6 @@
 {
 	"type": "doubleTurret",
-	"name": "Iron Turret",
+	"name": "Obsidian Turret",
 	"description": "-",
 	"health": 600,
 	"size": 3,
@@ -10,6 +10,7 @@
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 1,
 	"rotatespeed": 9,
+	"shots": 3,
 	"ammo": {
 		"gold": {
 			"speed": 8.0,
