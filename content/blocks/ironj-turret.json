@@ -10,9 +10,10 @@
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 10,
 	"rotatespeed": 12,
+	"shots": 2,
 	"ammo": {
-		"gold": {
-			"speed": 8.0,
+		"copper": {
+			"speed": 4.0,
 			"damage": 45,
 			"reloadMultiplier": 0.5,
 			"bulletWidth": 5,

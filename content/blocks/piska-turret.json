@@ -1,39 +1,28 @@
 {
 	"type": "doubleTurret",
-	"name": "Iron Turret",
+	"name": "Piska Turret",
 	"description": "-",
 	"health": 200,
 	"size": 3,
 	"recoil" : 6,
-	"reload": 4,
+	"reload": 0,
 	"range": 100,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 10,
 	"rotatespeed": 12,
+	"shots": 10,
 	"ammo": {
 		"gold": {
-			"speed": 8.0,
-			"damage": 45,
+			"speed": 90.0,
+			"damage": 2,
 			"reloadMultiplier": 0.5,
 			"bulletWidth": 5,
 			"bulletHeight": 9,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2,
-			"backColor": "ac7349",
-			"frontColor": "dcd16b"
-		},
-		"iron": {
-			"speed": 6.0,
-			"damage": 15,
-			"reloadMultiplier": 0.8,
-			"bulletWidth": 7,
-			"bulletHeight": 9,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2,
-			"backColor": "777778",
-			"frontColor": "4d4e50"
+			"backColor": "ffffff",
+			"frontColor": "ffffff"
 		}
 	},
 	"requirements": [
